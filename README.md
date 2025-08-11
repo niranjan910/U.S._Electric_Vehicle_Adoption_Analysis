@@ -114,19 +114,6 @@ Initial profiling ensured clean, accurate, and relevant data for analysis.
 
 ---
 
-## Repository Structure
-SQL/
-├── Data_Loading_Documentation.md # Step-by-step guide: Loading CSV into MySQL Workbench
-├── Data_Exploration_Documentation.md # SQL queries and explanations for data exploration
-├── Data_Loading.sql # MySQL scripts to create DB & load data
-├── Data_Exploration.sql # SQL queries for data analysis and validation
-
-Python/
-├── data_loading.py # Python script for CSV ingestion into MySQL
-
-
----
-
 ## 📬 Contact & Portfolio
 
 For collaboration or inquiries:  
@@ -134,4 +121,6 @@ For collaboration or inquiries:
 - **Email:** [niranjan991100@gmail.com](mailto:niranjan991100@gmail.com)  
 - **LinkedIn:** [https://www.linkedin.com/in/niranjan-k-a83517229/](https://www.linkedin.com/in/niranjan-k-a83517229/)  
 - **Portfolio:** [https://niranjan910.github.io/NiranjanDataAnalystPortfolio.github.io/](https://niranjan910.github.io/NiranjanDataAnalystPortfolio.github.io/)
+
+
 
