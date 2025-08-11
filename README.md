@@ -13,47 +13,45 @@ This section outlines the complete end-to-end workflow demonstrating professiona
 
 ### 1. Data Acquisition
 
-- Acquired the **`EvolutionInsight_US_EV_Trends.csv`** dataset with real-time EV adoption data across U.S. regions.
+- Acquired the **`EvolutionInsight_US_EV_Trends.csv`** dataset with real-time EV adoption data across U.S. regions.  
 - Dataset securely stored in a structured local folder for easy access and reproducibility.
 
 ### 2. Database Setup & Connection
 
-- Created a MySQL database named **`U_S_Electric_Vehicle_Adoption_Analysis`** to organize and manage the data efficiently.
+- Created a MySQL database named **`U_S_Electric_Vehicle_Adoption_Analysis`** to organize and manage the data efficiently.  
 - Used MySQL Workbench to create and validate database schema and tables.
 
 ### 3. Data Loading via Python
 
-- Leveraged **Python** libraries (`pandas`, `sqlalchemy`, `pymysql`) for robust data ingestion.
-- Loaded the CSV into a pandas DataFrame, cleaned column names for compatibility.
-- Established connection to MySQL using SQLAlchemy's `create_engine`.
-- Uploaded cleaned DataFrame into MySQL table **`ev_trends_data`**.
+- Leveraged **Python** libraries (`pandas`, `sqlalchemy`, `pymysql`) for robust data ingestion.  
+- Loaded the CSV into a pandas DataFrame, cleaned column names for compatibility.  
+- Established connection to MySQL using SQLAlchemy's `create_engine`.  
+- Uploaded cleaned DataFrame into MySQL table **`ev_trends_data`**.  
 - Verified successful data upload via SQL queries in MySQL Workbench.
 
 ### 4. Data Exploration & Validation in MySQL
 
-- Executed comprehensive SQL queries for:
-  - Counting rows and verifying data completeness.
-  - Checking data types and column integrity.
-  - Aggregating statistics (avg, min, max) on numeric fields.
-  - Counting distinct categorical values and checking missing data.
+- Executed comprehensive SQL queries for:  
+  - Counting rows and verifying data completeness.  
+  - Checking data types and column integrity.  
+  - Aggregating statistics (avg, min, max) on numeric fields.  
+  - Counting distinct categorical values and checking missing data.  
 - Ensured dataset quality and reliability for analysis.
 
 ### 5. Jupyter Notebook for Analysis
 
-- Developed a Jupyter Notebook for hands-on exploratory data analysis.
-- Connected directly to MySQL database to pull data dynamically.
-- Conducted detailed profiling with pandas (`.describe()`, `.info()`).
-- Created visualizations and categorical summaries to extract insights.
+- Developed a Jupyter Notebook for hands-on exploratory data analysis.  
+- Connected directly to MySQL database to pull data dynamically.  
+- Conducted detailed profiling with pandas (`.describe()`, `.info()`).  
+- Created visualizations and categorical summaries to extract insights.  
 - Documented process clearly to support reproducibility and presentation.
 
 ### 6. Insights & Reporting
 
-- Analyzed geographic EV adoption hotspots and incentive effectiveness.
-- Identified vehicle price and range trends impacting consumer behavior.
-- Delivered strategic recommendations to guide infrastructure and policy decisions.
+- Analyzed geographic EV adoption hotspots and incentive effectiveness.  
+- Identified vehicle price and range trends impacting consumer behavior.  
+- Delivered strategic recommendations to guide infrastructure and policy decisions.  
 - Compiled clean, well-commented notebooks to enable future scalability.
-
----
 
 ---
 
@@ -116,6 +114,19 @@ Initial profiling ensured clean, accurate, and relevant data for analysis.
 
 ---
 
+## Repository Structure
+SQL/
+├── Data_Loading_Documentation.md # Step-by-step guide: Loading CSV into MySQL Workbench
+├── Data_Exploration_Documentation.md # SQL queries and explanations for data exploration
+├── Data_Loading.sql # MySQL scripts to create DB & load data
+├── Data_Exploration.sql # SQL queries for data analysis and validation
+
+Python/
+├── data_loading.py # Python script for CSV ingestion into MySQL
+
+
+---
+
 ## 📬 Contact & Portfolio
 
 For collaboration or inquiries:  
@@ -123,7 +134,4 @@ For collaboration or inquiries:
 - **Email:** [niranjan991100@gmail.com](mailto:niranjan991100@gmail.com)  
 - **LinkedIn:** [https://www.linkedin.com/in/niranjan-k-a83517229/](https://www.linkedin.com/in/niranjan-k-a83517229/)  
 - **Portfolio:** [https://niranjan910.github.io/NiranjanDataAnalystPortfolio.github.io/](https://niranjan910.github.io/NiranjanDataAnalystPortfolio.github.io/)
-
-
-## Repository Structure
 
