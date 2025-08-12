@@ -1,6 +1,7 @@
 # U.S. Electric Vehicle (EV) Adoption Analysis
 
-- **Author:** Niranjan  
+- **Author:** Niranjan
+- **Data Set uploaded:** 19 June 2025  
 - **Date:** 22 June 2025  
 - **Project Type:** Real-time, end-to-end Data Analytics project  
 - **Dataset:** Real-world U.S. EV adoption data collected from official sources
